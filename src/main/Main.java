@@ -38,7 +38,10 @@ public class Main {
             legends.add(game[1]);
         }
         
-        System.out.println("Average time to get rank 5 : " + average(rankFives) + " / Time to get legend : " + average(legends));
+        long five = average(rankFives);
+        long legend = average(legends);
+        
+        System.out.println("Average time to get rank 5 : " + five + " (" + five / 60 + " hours " + five % 60 + " minutes) / Time to get legend : " + legend + " (" + legend / 60 + " hours " + legend % 60 + " minutes)");
 
     }
     
