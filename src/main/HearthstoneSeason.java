@@ -26,7 +26,7 @@ public class HearthstoneSeason {
                     this.stars = 0;
                 } else {
                     this.rank++;
-                    this.stars = this.maxStars[this.rank] - 1;
+                    this.stars = HearthstoneSeason.maxStars[this.rank] - 1;
                 }
             }
         }
